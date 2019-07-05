@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Responsive Website Pizza-2019 dark/light theme</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+<body>
+    <!-- main -->
+    <main id="main"> 
+        <!-- header -->
+        <!-- navigation -->
+        <header class="header">
+            <div class="nav-container">
+               <nav class="nav">
+                   <a href="#" class="nav-logo"><i class="fas fa-pizza-slice fa-2x"></i></a>
+                   <div class="menu" id="menu">
+                       <ul class="nav-links">
+                           <li class="nav-links-li"><a class="activeLinks" href="#slideshow-section">Home</a></li>
+                           <li class="nav-links-li" ><a href="#tabs-section">Our Menu</a></li>
+                           <li class="nav-links-li"><a href="#about-us">About Us</a></li>
+                           <li class="nav-links-li"><a href="#contact-us">Contact Us</a></li>
+                       </ul>   
+                   </div>
+               </nav> 
+            </div>
+            <!-- theme-switch -->
+            <div class="theme-switch-wrapper">
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <em>Dark Theme</em>
+                <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox">
+                    <div class="slider-theme"></div> 
+                </label>
+            </div> 
+        </header>
+        <!-- section slideshow-->
+        <section id="slideshow-section">
+            <div class="slideshow">
+                <div class="slideshow-container">
+                 <div id="slidewindow">
+                   <div id="slidewindow-child">
+                       <img src="img/photo-1542834369-f10ebf06d3e0.jpg">
+                       <div class="slidewindow-content">
+                            <h2>Best In Town</h2>
+                            <h1>Family Pizzeria</h1>
+                       </div>
+                    </div>
+                   <div id="slidewindow-child">
+                       <img src="img/photo-1536622308015-0740925b8221.jpg">
+                       <div class="slidewindow-content">
+                            <h2>Best In Town</h2>
+                            <h1>Family Pizzeria</h1>
+                       </div>
+                   </div>
+                   <div id="slidewindow-child">
+                       <img src="img/photo-1513104890138-7c749659a591.jpg">
+                       <div class="slidewindow-content">
+                            <h2>Best In Town</h2>
+                            <h1>Family Pizzeria</h1>
+                       </div>
+                   </div>
+                 </div>
+                 <i class="fas fa-chevron-left fa-2x" id="prev"></i> 
+                 <i class="fas fa-chevron-right fa-2x" id="next"></i> 
+                </div>
+                <ul id="dots"></ul>
+            </div>
+        </section>
+        <!-- section tabs -->
+        <section id="tabs-section">
+            <i class="fas fa-pizza-slice fa-2x"></i>
+            <h1>Our Menu</h1>
+             <div class="tabs">
+                 <ul id="dots-tabs"></ul>
+                 <div class="tabs-container">
+                  <div id="tabwindow">
+                    
+                     <div id="tabwindow-child">
+                       <div class="tabwindow-child-container">
+                           <div class="tabwindow-child-container__left">
+                               <div class="left-inner">
+                                   <img src="img/photo-1542834369-f10ebf06d3e0 (1).jpg">
+                                   <div class="left-inner__content">
+                                       <h3>Pizza Capricciosa</h3>
+                                       <p>Lorem ipsum dolor sit amet.</p>
+                                   </div>
+                                   <h4 class="left-inner-price">$20</h4>
+                               </div>
+                               <div class="left-inner">
+                                   <img src="img/photo-1513104890138-7c749659a591 (1).jpg">
+                                   <div class="left-inner__content">
+                                       <h3>Pizza Prosciuto</h3>
+                                       <p>Lorem ipsum dolor sit amet.</p>
+                                   </div>
+                                   <h4 class="left-inner-price">$20</h4>
+                               </div>
+                               <div class="left-inner">
+                                   <img src="img/photo-1536622308015-0740925b8221 (1).jpg">
+                                   <div class="left-inner__content">
+                                       <h3>Pizza Margherita</h3>
+                                       <p>Lorem ipsum dolor sit amet.</p>
+                                   </div>
+                                   <h4 class="left-inner-price">$20</h4>
+                               </div>
+                               <div class="left-inner">
+                                   <img src="img/photo-1528137871618-79d2761e3fd5.jpg">
+                                   <div class="left-inner__content">
+                                       <h3>Pizza Pepperoni</h3>
+                                       <p>Lorem ipsum dolor sit amet.</p>
+                                   </div>
+                                   <h4 class="left-inner-price">$20</h4>
+                               </div>
+                           </div>
+                           <div class="tabwindow-child-container__right">
+                                <div class="right-inner">
+                                   <img src="img/photo-1513104890138-7c749659a591 (1).jpg">
+                                   <div class="right-inner__content">
+                                       <h3>Pizza Pepperoni</h3>
+                                       <p>Lorem ipsum dolor sit amet.</p>
+                                   </div>
+                                   <h4 class="right-inner-price">$30</h4>
+                               </div>
+                               <div class="right-inner">
+                                   <img src="img/photo-1528137871618-79d2761e3fd5.jpg">
+                                   <div class="right-inner__content">
+                                       <h3>Pizza Capricciosa</h3>
+                                       <p>Lorem ipsum dolor sit amet.</p>
+                                   </div>
+                                   <h4 class="right-inner-price">$30</h4>
+                               </div>
+                               <div class="right-inner">
+                                   <img src="img/photo-1536622308015-0740925b8221 (1).jpg">
+                                   <div class="right-inner__content">
+                                       <h3>Pizza Prosciuto</h3>
+                                       <p>Lorem ipsum dolor sit amet.</p>
+                                   </div>
+                                   <h4 class="right-inner-price">$30</h4>
+                               </div>
+                               <div class="right-inner">
+                                   <img src="img/photo-1542834369-f10ebf06d3e0 (1).jpg">
+                                   <div class="right-inner__content">
+                                       <h3>Pizza Margherita</h3>
+                                       <p>Lorem ipsum dolor sit amet.</p>
+                                   </div>
+                                   <h4 class="right-inner-price">$30</h4>
+                               </div>
+                           </div>
+                       </div>
+                     </div>
+                     
+                     <div id="tabwindow-child">
+                       <div class="tabwindow-child-container">
+                           <div class="tabwindow-child-container__left">
+                               <div class="left-inner">
+                                   <img src="img/pasta1.jpg">
+                                   <div class="left-inner__content">
+                                       <h3>Italian Pasta</h3>
+                                       <p>Lorem ipsum dolor sit amet.</p>
+                                   </div>
+                                   <h4 class="left-inner-price">$20</h4>
+                               </div>
+                               <div class="left-inner">
+                                   <img src="img/pasta2.jpg">
+                                   <div class="left-inner__content">
+                                       <h3>Broccoli Pasta</h3>
+                                       <p>Lorem ipsum dolor sit amet.</p>
+                                   </div>
+                                   <h4 class="left-inner-price">$20</h4>
+                               </div>
+                               <div class="left-inner">
+                                   <img src="img/pasta3.jpg">
+                                   <div class="left-inner__content">
+                                       <h3>Egg Pasta</h3>
+                                       <p>Lorem ipsum dolor sit amet.</p>
+                                   </div>
+                                   <h4 class="left-inner-price">$20</h4>
+                               </div>
+                               <div class="left-inner">
+                                   <img src="img/pasta4.jpg">
+                                   <div class="left-inner__content">
+                                       <h3>Tomato Pasta</h3>
+                                       <p>Lorem ipsum dolor sit amet.</p>
+                                   </div>
+                                   <h4 class="left-inner-price">$20</h4>
+                               </div>
+                           </div>
+                           <div class="tabwindow-child-container__right">
+                                <div class="right-inner">
+                                   <img src="img/pasta4.jpg">
+                                   <div class="right-inner__content">
+                                       <h3>Broccoli Pasta</h3>
+                                       <p>Lorem ipsum dolor sit amet.</p>
+                                   </div>
+                                   <h4 class="right-inner-price">$30</h4>
+                               </div>
+                               <div class="right-inner">
+                                   <img src="img/pasta3.jpg">
+                                   <div class="right-inner__content">
+                                       <h3>Italian Pasta</h3>
+                                       <p>Lorem ipsum dolor sit amet.</p>
+                                   </div>
+                                   <h4 class="right-inner-price">$30</h4>
+                               </div>
+                               <div class="right-inner">
+                                   <img src="img/pasta2.jpg">
+                                   <div class="right-inner__content">
+                                       <h3>Tomato Pasta</h3>
+                                       <p>Lorem ipsum dolor sit amet.</p>
+                                   </div>
+                                   <h4 class="right-inner-price">$30</h4>
+                               </div>
+                               <div class="right-inner">
+                                   <img src="img/pasta1.jpg">
+                                   <div class="right-inner__content">
+                                       <h3>Egg Pasta</h3>
+                                       <p>Lorem ipsum dolor sit amet.</p>
+                                   </div>
+                                   <h4 class="right-inner-price">$30</h4>
+                               </div>
+                           </div>
+                       </div>
+                     </div>
+                     
+                     <div id="tabwindow-child">
+                       <div class="tabwindow-child-container">
+                           <div class="tabwindow-child-container__left">
+                               <div class="left-inner">
+                                   <img src="img/salad1.jpg">
+                                   <div class="left-inner__content">
+                                       <h3>Chicken Salad</h3>
+                                       <p>Lorem ipsum dolor sit amet.</p>
+                                   </div>
+                                   <h4 class="left-inner-price">$20</h4>
+                               </div>
+                               <div class="left-inner">
+                                   <img src="img/salad2.jpg">
+                                   <div class="left-inner__content">
+                                       <h3>Egg Salad</h3>
+                                       <p>Lorem ipsum dolor sit amet.</p>
+                                   </div>
+                                   <h4 class="left-inner-price">$20</h4>
+                               </div>
+                               <div class="left-inner">
+                                   <img src="img/salad3.jpg">
+                                   <div class="left-inner__content">
+                                       <h3>Avocado Salad</h3>
+                                       <p>Lorem ipsum dolor sit amet.</p>
+                                   </div>
+                                   <h4 class="left-inner-price">$20</h4>
+                               </div>
+                               <div class="left-inner">
+                                   <img src="img/salad4.jpg">
+                                   <div class="left-inner__content">
+                                       <h3>Vegetable Salad</h3>
+                                       <p>Lorem ipsum dolor sit amet.</p>
+                                   </div>
+                                   <h4 class="left-inner-price">$20</h4>
+                               </div>
+                           </div>
+                           <div class="tabwindow-child-container__right">
+                                <div class="right-inner">
+                                   <img src="img/salad4.jpg">
+                                   <div class="right-inner__content">
+                                       <h3>Vegetable Salad</h3>
+                                       <p>Lorem ipsum dolor sit amet.</p>
+                                   </div>
+                                   <h4 class="right-inner-price">$30</h4>
+                               </div>
+                               <div class="right-inner">
+                                   <img src="img/salad3.jpg">
+                                   <div class="right-inner__content">
+                                       <h3>Avocado Salad</h3>
+                                       <p>Lorem ipsum dolor sit amet.</p>
+                                   </div>
+                                   <h4 class="right-inner-price">$30</h4>
+                               </div>
+                               <div class="right-inner">
+                                   <img src="img/salad2.jpg">
+                                   <div class="right-inner__content">
+                                       <h3>Egg Salad</h3>
+                                       <p>Lorem ipsum dolor sit amet.</p>
+                                   </div>
+                                   <h4 class="right-inner-price">$30</h4>
+                               </div>
+                               <div class="right-inner">
+                                   <img src="img/salad1.jpg">
+                                   <div class="right-inner__content">
+                                       <h3>Chicken Salad</h3>
+                                       <p>Lorem ipsum dolor sit amet.</p>
+                                   </div>
+                                   <h4 class="right-inner-price">$30</h4>
+                               </div>
+                           </div>
+                       </div>
+                     </div>
+                     
+                     <div id="tabwindow-child">
+                       <div class="tabwindow-child-container">
+                           <div class="tabwindow-child-container__left">
+                               <div class="left-inner">
+                                   <img src="img/dessert1.jpg">
+                                   <div class="left-inner__content">
+                                       <h3>Cupcakes Dessert</h3>
+                                       <p>Lorem ipsum dolor sit amet.</p>
+                                   </div>
+                                   <h4 class="left-inner-price">$20</h4>
+                               </div>
+                               <div class="left-inner">
+                                   <img src="img/dessert2.jpg">
+                                   <div class="left-inner__content">
+                                       <h3>Mango Dessert</h3>
+                                       <p>Lorem ipsum dolor sit amet.</p>
+                                   </div>
+                                   <h4 class="left-inner-price">$20</h4>
+                               </div>
+                               <div class="left-inner">
+                                   <img src="img/dessert3.jpg">
+                                   <div class="left-inner__content">
+                                       <h3>Strawberries Dessert</h3>
+                                       <p>Lorem ipsum dolor sit amet.</p>
+                                   </div>
+                                   <h4 class="left-inner-price">$20</h4>
+                               </div>
+                               <div class="left-inner">
+                                   <img src="img/desert4.jpg">
+                                   <div class="left-inner__content">
+                                       <h3>Banana Dessert</h3>
+                                       <p>Lorem ipsum dolor sit amet.</p>
+                                   </div>
+                                   <h4 class="left-inner-price">$20</h4>
+                               </div>
+                           </div>
+                           <div class="tabwindow-child-container__right">
+                                <div class="right-inner">
+                                   <img src="img/dessert2.jpg">
+                                   <div class="right-inner__content">
+                                       <h3>Mango Dessert</h3>
+                                       <p>Lorem ipsum dolor sit amet.</p>
+                                   </div>
+                                   <h4 class="right-inner-price">$30</h4>
+                               </div>
+                               <div class="right-inner">
+                                   <img src="img/desert4.jpg">
+                                   <div class="right-inner__content">
+                                       <h3>Banana Dessert</h3>
+                                       <p>Lorem ipsum dolor sit amet.</p>
+                                   </div>
+                                   <h4 class="right-inner-price">$30</h4>
+                               </div>
+                               <div class="right-inner">
+                                   <img src="img/dessert1.jpg">
+                                   <div class="right-inner__content">
+                                       <h3>Cupcakes Dessert</h3>
+                                       <p>Lorem ipsum dolor sit amet.</p>
+                                   </div>
+                                   <h4 class="right-inner-price">$30</h4>
+                               </div>
+                               <div class="right-inner">
+                                   <img src="img/dessert3.jpg">
+                                   <div class="right-inner__content">
+                                       <h3>Strawberries Dessert</h3>
+                                       <p>Lorem ipsum dolor sit amet.</p>
+                                   </div>
+                                   <h4 class="right-inner-price">$30</h4>
+                               </div>
+                           </div>
+                       </div>
+                     </div>
+                     
+                  </div>
+                 </div>
+             </div> 
+            <!-- btn order -->
+            <a class="btn-order" href="#contact-us"><span>Order</span></a>  
+        </section>
+        <!-- section about us -->
+        <section id="about-us">
+             <h1 class="fade-in">About Us</h1>
+             <p class="fade-in">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi enim dignissimos necessitatibus nam rerum, rem perferendis architecto porro expedita libero vero perspiciatis eius! Et in laborum culpa assumenda est, animi facere. Error commodi aperiam tempore perspiciatis enim repellendus consectetur voluptate. Quae, totam. Enim laboriosam ratione dolore modi ea tempore nihil distinctio iste placeat, perspiciatis dicta tempora vitae inventore aspernatur rem sequi vel consectetur voluptates ullam doloribus possimus suscipit consequatur quaerat! Iusto, quae et suscipit illo itaque quas sunt aliquid, natus asperiores nihil, saepe molestiae repellendus recusandae perspiciatis voluptas totam. Et, molestias enim, dignissimos hic itaque sint velit, provident fugiat quisquam dolores quod. Ullam eveniet deleniti consequatur harum perspiciatis quod sed corrupti aspernatur provident animi veniam corporis amet quasi assumenda, doloribus cupiditate, aut officiis! Tempore, asperiores mollitia tempora repellendus iure culpa obcaecati vitae perspiciatis temporibus, exercitationem quae laudantium impedit. Minus perferendis laboriosam illum unde suscipit labore voluptates. Error nostrum ullam, est minima possimus dolores animi, saepe repudiandae libero laborum perspiciatis aliquid beatae voluptates eveniet corporis expedita nam quos quo quasi earum nisi? Accusamus assumenda, laborum aut deserunt laboriosam ex error similique praesentium iusto dicta neque hic aspernatur nesciunt accusantium, repellendus enim placeat quaerat vero consequatur facilis! Cupiditate quibusdam explicabo quod quos laudantium soluta corrupti quam voluptas, eaque voluptatem, labore, atque aut. Veritatis ex ad obcaecati incidunt quidem, cumque laboriosam dolore eaque ea numquam, temporibus explicabo, hic tempora voluptas vero aspernatur! Eligendi consequatur molestiae eius quis, ut corporis sapiente quod eos laudantium natus dicta neque vero nihil, dolorem itaque, repudiandae quo quos quae nesciunt. Facilis ab ratione doloremque veritatis esse dolor explicabo suscipit dignissimos rem reprehenderit provident laboriosam fuga eius id, harum quod? Sapiente facere dignissimos fugit tenetur consectetur dicta in reiciendis maiores blanditiis molestiae ducimus totam illum harum quia, tempore doloremque obcaecati hic quidem odio magni sint corrupti eaque! Eveniet, porro?</p>
+        </section>
+        <!-- section testimonials -->
+        <section id="testimonials">
+            <p class="testimonilas-p fade-in">Happy Client Says</p>
+            <h1 class="fade-in">Testimonials</h1>
+            <div class="guests-says-slider-container slide-in from-left">
+                   <div class="guests-says-slider">
+                       <div class="guests-says-slider-iner">
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, vitae dolor. Provident delectus, soluta dolores repudiandae. Maxime odit magni nostrum.</p>
+                           <img src="img/testimonial1.jpg">
+                           <h2>Jesica Hart</h2>
+                           <h4>Guests From United States</h4>
+                       </div>
+                       <div class="guests-says-slider-iner">
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, vitae dolor. Provident delectus, soluta dolores repudiandae. Maxime odit magni nostrum.</p>
+                           <img src="img/testimonials2.jpg">
+                           <h2>Warren Wong</h2>
+                           <h4>Guests From France</h4>
+                       </div>
+                       <div class="guests-says-slider-iner">
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, vitae dolor. Provident delectus, soluta dolores repudiandae. Maxime odit magni nostrum.</p>
+                           <img src="img/testimonials3.jpg">
+                           <h2>Ivana Cajina</h2>
+                           <h4>Guests From United Kingdom</h4>
+                       </div>
+                       <div class="guests-says-slider-iner">
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, vitae dolor. Provident delectus, soluta dolores repudiandae. Maxime odit magni nostrum.</p>
+                           <img src="img/testimonials4.jpg">
+                           <h2>Lucas Sankey</h2>
+                           <h4>Guests From Austria</h4>
+                       </div>
+                       <div class="guests-says-slider-iner">
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, vitae dolor. Provident delectus, soluta dolores repudiandae. Maxime odit magni nostrum.</p>
+                           <img src="img/testimonials5.jpg">
+                           <h2>Andrea Harirson</h2>
+                           <h4>Guests From Italy</h4>
+                       </div>
+                       <div class="guests-says-slider-iner">
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, vitae dolor. Provident delectus, soluta dolores repudiandae. Maxime odit magni nostrum.</p>
+                           <img src="img/testimonials6.jpg">
+                           <h2>Mike Baker</h2>
+                           <h4>Guests From Spain</h4>
+                       </div>
+                   </div>
+                   <button id="prevTestimonials"><i class="fas fa-chevron-left fa-2x"></i></button>
+                   <button id="nextTestimonials"><i class="fas fa-chevron-right fa-2x"></i></button> 
+               </div>        
+        </section> 
+        <!-- section contact-us -->
+        <section id="contact-us">
+                <h1 class="fade-in">Contact Us</h1>
+                <h2 class="fade-in">Order Now: + 34 777 778 7779</h2>
+                <div class="div-container">
+                    <div class="contact-us-container">
+                        <form class="input-container slide-in from-left">
+                            <div class="input-inside">
+                                <input type="text" class="input" required placeholder="Name">
+                                <label class="input-label">Name</label>
+                            </div>
+                            <div class="input-inside">
+                                <input type="text" class="input" required placeholder="Email">
+                                <label class="input-label">Email</label>
+                            </div>
+                            <div class="input-inside">
+                                <textarea type="text" class="input" required placeholder="Message" rows="4"></textarea>
+                                <label class="input-label">Message</label>
+                            </div>
+                            <button type="submit" id="btn-contact-form"><span>Send Message</span></button>
+                        </form>
+                        <div class="contact-information slide-in from-right">
+                            <div class="contact-information-inner">
+                                <h4>Address: <span>333 West 21th Street, Suite 721 New York NY 10016</span></h4>
+                                <h4>Phone: <span>+ 34 777 778 7779</span></h4>
+                                <h4>Email: <a href="">info@yoursite.com</a></h4>
+                                <h4>Website: <a href="" target="_blank">yoursite.com</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+        </section>
+        <!-- google maps -->
+        <section class="google-maps">
+            <iframe class="fade-in" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830962086!2d-74.11976348216282!3d40.69766374842546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2smk!4v1547660265534" width="1920" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </section>
+        <!-- Instagram -->
+        <section id="instagram">
+            <h1 class="fade-in">Instagram</h1>
+            <div class="instagram-container fade-in"> 
+                <div class="btn-img-modal-container">
+                   <img src="img/instagram1(320x320).jpg">
+                   <a class="btn-img-modal" href="#img-modal-1"></a>
+                </div>
+               <div id="img-modal-1" class="img-modal">
+                    <div class="img-modal-content">
+                        <span class="close-img">×</span>
+                        <img src="img/instagram1(820x820).jpg">
+                    </div>
+                </div>
+                <div class="btn-img-modal-container">
+                    <img src="img/instagram2(320x320).jpg">
+                    <a class="btn-img-modal" href="#img-modal-2"></a>
+                </div>
+                <div id="img-modal-2" class="img-modal">
+                    <div class="img-modal-content">
+                        <span class="close-img">×</span>
+                        <img src="img/instagram2(800x600).jpg">
+                    </div>
+                </div>
+                <div class="btn-img-modal-container">
+                    <img src="img/instagram3(320x320).jpg">
+                    <a class="btn-img-modal" href="#img-modal-3"></a>
+                </div>
+                <div id="img-modal-3" class="img-modal">
+                    <div class="img-modal-content">
+                        <span class="close-img">×</span>
+                        <img src="img/instagram3(800x800).jpg">
+                    </div>
+                </div>
+                <div class="btn-img-modal-container">
+                    <img src="img/instagram4(320x320).jpg">
+                    <a class="btn-img-modal" href="#img-modal-4"></a>
+                </div>
+                <div id="img-modal-4" class="img-modal">
+                    <div class="img-modal-content">
+                        <span class="close-img">×</span>
+                        <img src="img/dessert3.jpg">
+                    </div>
+                </div>
+                <div class="btn-img-modal-container">
+                    <img src="img/instagram5(320x320).jpg">
+                    <a class="btn-img-modal" href="#img-modal-5"></a>
+                </div>
+                <div id="img-modal-5" class="img-modal">
+                    <div class="img-modal-content">
+                        <span class="close-img">×</span>
+                        <img src="img/instagram5(820x820).jpg">
+                    </div>
+                </div>
+                <div class="btn-img-modal-container">
+                    <img src="img/instagram6(320x320).jpg">
+                    <a class="btn-img-modal" href="#img-modal-6"></a>
+                </div>
+                <div id="img-modal-6" class="img-modal">
+                    <div class="img-modal-content">
+                        <span class="close-img">×</span>
+                        <img src="img/instagram6(820x820).jpg">
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <!-- footer -->
+        <footer id="footer">
+            <p class="p-copyright">Copyright 2019&copy; All rights reserved - Design & Developed by <a href="" class="link-copyright">Gjoko Bulovski</a></p>
+        </footer>
+</main> 
+    <!-- JavaScript -->
+    <script src="index.js"></script>
+</body>
+</html>
